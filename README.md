@@ -1,11 +1,11 @@
-# Models Comparison in Genuine Banknotes Prediction 🤖🏛️🔍
-// Author 👨‍💻: Joaquin Estevez Year: 2023
+# Models Comparison in Genuine Banknotes Prediction
+// 👨‍💻Author: Joaquin Estevez Year: 2023
 
-## Project Goal 🎯
+## 🎯Project Goal 
 The goal of this project is to compare the performance of different machine learning models on the task of predicting whether a banknote is authentic or counterfeit. The project aims to analyze and evaluate various models to determine which one provides better outcomes for the given prediction problem.
 
 
-## Overview 🌐
+## 🌐Overview 
   The project employs four different machine learning models:
   1. ### Perceptron Model:
      - Simple linear binary classification algorithm. It learns a linear decision boundary to separate two classes based on input features.
@@ -32,7 +32,7 @@ The goal of this project is to compare the performance of different machine lear
       -0.89569	3.0025	        -3.6067	        -3.4457	    1
       ```
 
-## Usage 🔧
+## 🔧Usage 
   The project is implemented in Python, and the main script is `predictions.py`. This script performs the following steps:
   1. Reads data from the "banknotes.csv" file.
   2. Divides the data into training and testing sets.
@@ -46,7 +46,7 @@ The goal of this project is to compare the performance of different machine lear
   ```
 
 
-## Results 📈
+## 📈Results 
   ```txt
     Results for model Perceptron
     Correct: 544
@@ -72,7 +72,7 @@ The goal of this project is to compare the performance of different machine lear
     Accuracy: 84.34%
   ```
 
-## Conclusion and Analysis 🧠
+##  🧠Conclusion and Analysis
   1. The results demonstrate that the Perceptron model achieved a commendable accuracy of 99.09%, correctly classifying 544 out of 549 instances. Similarly, the Support Vector Classifier (SVC) exhibited outstanding performance, with an accuracy of 99.82%, making only 1 incorrect prediction out of 549. The K-Nearest Neighbors (KNN) model showcased an impeccable accuracy of 100%, achieving correct predictions for all instances.
 
   2. In contrast, the Gaussian Naive Bayes model, while still performing reasonably well, showed a lower accuracy of 84.34%. This discrepancy suggests that the assumptions of feature independence made by the Gaussian Naive Bayes algorithm might not align perfectly with the underlying distribution of the banknote characteristics.
